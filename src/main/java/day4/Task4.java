@@ -17,7 +17,7 @@ public class Task4 {
             for(int j=i; j<i+3;j++){
                 sum[i]=sum[i]+arr[j];
             }
-            if (sum[i]>maxsum){
+            if (sum[i] > maxsum){
                 maxsum=sum[i];
                 index=i;
             }
